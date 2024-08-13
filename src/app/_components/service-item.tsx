@@ -228,7 +228,7 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
                   </div>
 
                   {selectedDay && (
-                    <div className="flex gap-3 overflow-x-auto border-b border-solid p-5 [&::-webkit-scrollbar]:hidden">
+                    <div className="scrollbar-hide flex max-w-full gap-3 overflow-x-auto border-b border-solid p-5">
                       {timeList.length > 0 ? (
                         timeList.map((time) => (
                           <Button
@@ -236,7 +236,7 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
                             variant={
                               selectedTime === time ? "default" : "outline"
                             }
-                            className="rounded-full"
+                            className="whitespace-nowrap rounded-full"
                             onClick={() => handleTimeSelect(time)}
                           >
                             {time}
@@ -249,7 +249,6 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
                       )}
                     </div>
                   )}
-
                   {selectedTime && selectedDay && (
                     <div className="p-5">
                       <Card>
