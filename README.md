@@ -21,6 +21,18 @@
 </p>
 <br>
 
+<p align="center">
+  <span style="font-size: 28px; font-weight: bold;">Conheça o Projeto</span>
+</p>
+
+<p align="center">
+  <img src="/public/home.gif" alt="barbearia" />
+</p>
+
+<p align="center">
+  <img src="/public/reserva.gif" alt="barbearia" />
+</p>
+
 ### Sobre
 
 O Sistema de Gestão para Barbearias é uma aplicação web completa desenvolvida para atender às necessidades de barbearias, facilitando o gerenciamento de serviços, agendamentos e interações com clientes. A plataforma é construída utilizando as tecnologias mais modernas e oferece uma experiência intuitiva tanto para os proprietários de barbearias quanto para os clientes.
